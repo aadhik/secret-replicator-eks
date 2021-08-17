@@ -37,8 +37,10 @@ Details -
 
 3) Steps to install 
       a) clone the git repo 
+      
       b) Install master operator using below command
             helm upgrade --install masteroperator . -f values.yaml -n operator --atomic --debug --timeout 10m
+            
       c) Install agent operator using the below command
             helm upgrade --install agentoperator . -f values.yaml -n operator --atomic --debug --timeout 10m
 
