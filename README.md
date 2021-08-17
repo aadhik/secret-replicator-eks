@@ -35,7 +35,7 @@ Details -
       b) Agent Operator- Run in client EKS cluster in namespace "operator" . Monitor the secret create/update event along with any new namespace creation event. As soon as any of 
          event occurs , the "operator" checks for the aforementioned annotation in secrets under "operator" namespace and replicates it to all namespaces
 
-3) Steps to install 
+3) Steps to install.
       a) clone the git repo 
       
       b) Install master operator using below command
