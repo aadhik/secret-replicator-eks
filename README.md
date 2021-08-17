@@ -12,7 +12,7 @@ Solution -
 2)	Create a namepace operator, run Master operator in the mgmt. cluster in operator namespace
 3)	In all other k8s cluster create a namespace operator and run the agent operator 
 4)	Master operator checks mgmt. cluster for all secrets and config maps which have an annotation 
-      “mw_sec/sync: true”, in the operator namespace 
+      “mw-sec/sync: true”, in the operator namespace 
 5)	If the annotation is found it starts pushing the object to all other k8s cluster in operator namespace of the destination cluster
 6)	Once the object is created in destination cluster, the agent operator finds the same annotation and starts pushing the object to all of its namespaces
 
