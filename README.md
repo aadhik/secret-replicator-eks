@@ -36,6 +36,7 @@ Details -
          event occurs , the "operator" checks for the aforementioned annotation in secrets under "operator" namespace and replicates it to all namespaces
 
 3) Steps to install.
+
       a) clone the git repo 
       
       b) Install master operator using below command
